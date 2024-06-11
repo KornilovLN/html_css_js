@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Проект html5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="icons/ivl.png" alt="Логотип" />
+            <nav>
+              
+              <ul>
+                <li><a href="#" data-url="home.html"><h2>Главная</h2></a></li>
+                <li><a href="#" data-url="about.html"><h2>О нас</h2></a></li>
+                <li><a href="#" data-url="contacts.html"><h2>Контакты</h2></a></li>
+              </ul>
+            
+            </nav>
+          </div>
+    </header>
+
+    <div class="container">        
+        <div class="sidebar-container">
+            <div class="sidebar">
+                <h3>Меню</h3>
+                
+                <ul class="sidebar-menu">
+
+                    <li><a href="#" data-url="home.html">Главная</a></li>
+                    
+                    <li><a href="#" data-url="category1.html">Категория 1</a>
+                        <ul class="submenu">
+                            <li><a href="#" data-url="subcategory1.1.html">Подкатегория 1.1</a></li>
+                            <li><a href="#" data-url="subcategory1.2.html">Подкатегория 1.2</a></li>
+                            <li><a href="#" data-url="subcategory1.3.html">Подкатегория 1.3</a>
+                                <ul class="submenu">
+                                    <li><a href="#" data-url="subcategory1.3.1.html">Подпункт 1.3.1</a></li>
+                                    <li><a href="#" data-url="subcategory1.3.2.html">Подпункт 1.3.2</a></li>
+                                    <li><a href="#" data-url="subcategory1.3.3.html">Подпункт 1.3.3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" data-url="category2.html">Категория 2</a>
+                        <ul class="submenu">
+                            <li><a href="#" data-url="subcategory2.1.html">Подкатегория 2.1</a></li>
+                            <li><a href="#" data-url="subcategory2.2.html">Подкатегория 2.2</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" data-url="contacts.html">Контакты</a></li>
+
+                </ul>          
+
+            </div>
+        </div>
+        
+        <div class="main-content-container">
+            <div class="main-content">
+                <!-- Здесь будет загружаться содержимое вызываемых из меню страниц -->
+            </div>
+        </div>    
+    </div>
+
+    <footer>
+        <div class="container">
+            <nav>
+              
+              <ul>
+                <li><a href="#" data-url="home.html"><h2>Главная</h2></a></li>
+                <li><a href="#" data-url="about.html"><h2>О нас</h2></a></li>
+                <li><a href="#" data-url="contacts.html"><h2>Контакты</h2></a></li>
+              </ul>
+            
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script_sidebar_menu.js"></script>
+    <script src="script_header_menu.js"></script>
+
+</body>
+</html>
